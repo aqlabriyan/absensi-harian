@@ -68,7 +68,7 @@ const mapel = {
 };
 
 export const data = {
-  kelas: "11 MIPA 6",
+  kelas: "11 MIPA 6 <br>(auto update every day)",
   senin: { hari: "Senin", jadwal: [mapel.presensi, mapel.big, mapel.mawa, mapel.pai, mapel.mawa] },
   selasa: { hari: "Selasa", jadwal: [mapel.presensi, mapel.bin, mapel.fis, mapel.seji, mapel.bin] },
   rabu: { hari: "Rabu", jadwal: [mapel.presensi, mapel.mapi, mapel.kim, mapel.fis, mapel.ppkn] },
@@ -78,7 +78,7 @@ export const data = {
 
 //empty
 export const datas = {
-  kelas: "11 MIPA 6",
+  kelas: "11 MIPA 6 <br>(auto update every Day)",
   senin: { hari: "Senin", jadwal: [] },
   selasa: { hari: "Selasa", jadwal: [] },
   rabu: { hari: "Rabu", jadwal: [] },
