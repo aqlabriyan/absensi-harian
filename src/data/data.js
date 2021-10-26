@@ -68,20 +68,10 @@ const mapel = {
 };
 
 export const data = {
-  kelas: "11 MIPA 6 (minggu 1 dan 2) <br>(auto update every day)",
-  senin: { hari: "Senin", jadwal: [mapel.presensi, mapel.big, mapel.mawa, mapel.pai, mapel.mawa] },
-  selasa: { hari: "Selasa", jadwal: [mapel.presensi, mapel.bin, mapel.fis, mapel.seji, mapel.bin] },
-  rabu: { hari: "Rabu", jadwal: [mapel.presensi, mapel.mapi, mapel.kim, mapel.fis, mapel.ppkn] },
-  kamis: { hari: "Kamis", jadwal: [mapel.presensi, mapel.geolin, mapel.bio, mapel.kim, mapel.geolin] },
-  jumat: { hari: "Jumat", jadwal: [mapel.jawa, mapel.presensi, mapel.mapi, mapel.prakarya, mapel.penjas, mapel.bio, mapel.sebu] },
-};
-
-//empty
-export const datas = {
-  kelas: "11 MIPA 6 (minggu 1 dan 2) <br>(auto update every Day)",
-  senin: { hari: "Senin", jadwal: [] },
-  selasa: { hari: "Selasa", jadwal: [] },
-  rabu: { hari: "Rabu", jadwal: [] },
-  kamis: { hari: "Kamis", jadwal: [] },
-  jumat: { hari: "Jumat", jadwal: [] },
+  kelas: "11 MIPA 6<br>(auto update every day)",
+  senin: { hari: "Senin (minggu 1 dan 2)", jadwal: [mapel.presensi, mapel.big, mapel.mawa, mapel.pai, mapel.mawa] },
+  selasa: { hari: "Selasa (minggu 1 dan 2)", jadwal: [mapel.presensi, mapel.bin, mapel.fis, mapel.seji, mapel.bin] },
+  rabu: { hari: "Rabu (minggu 1 dan 2)", jadwal: [mapel.presensi, mapel.mapi, mapel.kim, mapel.fis, mapel.ppkn] },
+  kamis: { hari: "Kamis (minggu 1 dan 2)", jadwal: [mapel.presensi, mapel.geolin, mapel.bio, mapel.kim, mapel.geolin] },
+  jumat: { hari: "Jumat (minggu 1 dan 2)", jadwal: [mapel.jawa, mapel.presensi, mapel.mapi, mapel.prakarya, mapel.penjas, mapel.bio, mapel.sebu] },
 };
