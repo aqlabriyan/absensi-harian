@@ -65,6 +65,10 @@ const mapel = {
     name: "Sebu",
     link: "#",
   },
+  kosong: {
+    name: "Empty",
+    link: "#",
+    },
 };
 
 export const data = {
@@ -74,7 +78,7 @@ export const data = {
   rabu: { hari: "Rabu <br>(minggu 1 dan 2)", jadwal: [mapel.presensi, mapel.mapi, mapel.kim, mapel.fis, mapel.ppkn] },
   kamis: { hari: "Kamis <br>(minggu 1 dan 2)", jadwal: [mapel.presensi, mapel.geolin, mapel.bio, mapel.kim] },
   jumat: { hari: "Jumat <br>(minggu 1 dan 2)", jadwal: [mapel.jawa, mapel.presensi, mapel.mapi, mapel.prakarya, mapel.penjas, mapel.bio, mapel.sebu] },
-  sabtu: { hari: "Sabtu", jadwal: [] },
-  minggu: { hari: "Minggu", jadwal: [] },
+  sabtu: { hari: "Sabtu", jadwal: [mapel.kosong] },
+  minggu: { hari: "Minggu", jadwal: [mapel.kosong] },
   
 };
