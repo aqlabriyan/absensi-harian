@@ -13,21 +13,13 @@ class GetData {
 }  
 let dataToday;
 switch(new Date().getDay()) {
-  case 0:dataToday= new GetData(data.minggu2);break;
-  case 1:dataToday= new GetData(data.senin1);break;
-  case 2:dataToday= new GetData(data.selasa1);break;
-  case 3:dataToday= new GetData(data.rabu1);break;
-  case 4:dataToday= new GetData(data.kamis1);break;
-  case 5:dataToday= new GetData(data.jumat1);break;
-  case 6:dataToday= new GetData(data.sabtu1);break;
-  case 7:dataToday= new GetData(data.minggu1);break;
-  case 8:dataToday= new GetData(data.senin2);break;
-  case 9:dataToday= new GetData(data.selasa2);break;
-  case 10:dataToday= new GetData(data.rabu2);break;
-  case 11:dataToday= new GetData(data.kamis2);break;
-  case 12:dataToday= new GetData(data.jumat2);break;
-  case 13:dataToday= new GetData(data.sabtu2);break;
-    
+  case 0:dataToday= new GetData(data.minggu);break;
+  case 1:dataToday= new GetData(data.senin);break;
+  case 2:dataToday= new GetData(data.selasa);break;
+  case 3:dataToday= new GetData(data.rabu);break;
+  case 4:dataToday= new GetData(data.kamis);break;
+  case 5:dataToday= new GetData(data.jumat);break;
+  case 6:dataToday= new GetData(data.sabtu);break;    
 }
 
 const today = () => {
