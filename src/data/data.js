@@ -69,12 +69,12 @@ const mapel = {
 
 export const data = {
   kelas: "11 MIPA 6 <br>(auto update every day)",
-  senin1: { hari: "Senin <br>(minggu 1)", jadwal: [mapel.presensi, mapel.big, mapel.mawa, mapel.pai] },
-  selasa1: { hari: "Selasa <br>(minggu 1)", jadwal: [mapel.presensi, mapel.bin, mapel.fis, mapel.seji] },
-  rabu1: { hari: "Rabu <br>(minggu 1)", jadwal: [mapel.presensi, mapel.mapi, mapel.kim, mapel.fis, mapel.ppkn] },
-  kamis1: { hari: "Kamis <br>(minggu 1)", jadwal: [mapel.presensi, mapel.geolin, mapel.bio, mapel.kim] },
-  jumat1: { hari: "Jumat <br>(minggu 1)", jadwal: [mapel.jawa, mapel.presensi, mapel.mapi, mapel.prakarya, mapel.penjas, mapel.bio, mapel.sebu] },
-  sabtu1: { hari: "Sabtu", jadwal: [] },
-  minggu1: { hari: "Minggu", jadwal: [] },
+  senin: { hari: "Senin <br>(minggu 1 dan 2)", jadwal: [mapel.presensi, mapel.big, mapel.mawa, mapel.pai] },
+  selasa: { hari: "Selasa <br>(minggu 1 dan 2)", jadwal: [mapel.presensi, mapel.bin, mapel.fis, mapel.seji] },
+  rabu: { hari: "Rabu <br>(minggu 1 dan 2)", jadwal: [mapel.presensi, mapel.mapi, mapel.kim, mapel.fis, mapel.ppkn] },
+  kamis: { hari: "Kamis <br>(minggu 1 dan 2)", jadwal: [mapel.presensi, mapel.geolin, mapel.bio, mapel.kim] },
+  jumat: { hari: "Jumat <br>(minggu 1 dan 2)", jadwal: [mapel.jawa, mapel.presensi, mapel.mapi, mapel.prakarya, mapel.penjas, mapel.bio, mapel.sebu] },
+  sabtu: { hari: "Sabtu", jadwal: [] },
+  minggu: { hari: "Minggu", jadwal: [] },
   
 };
