@@ -67,7 +67,7 @@ const mapel = {
   },
   kosong: {
     name: "Empty",
-    link: "#",
+    link: ".",
     },
 };
 
